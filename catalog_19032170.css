@@ -1,0 +1,598 @@
+Store{
+    margin: 20px;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    box-shadow: 10px 5px 8px 10px rgb(144, 151, 151);
+    background: #f5f3ed;
+}
+
+header{
+    display: flex;
+    height: 130px;
+    width: 100%;
+    margin:auto;
+    padding-bottom: 10px;
+}
+
+image{
+    display: block;
+    background-image: url('/Image/BloodandThunder.jpg');
+    background-repeat: no-repeat;
+    background-size: 130px;
+    width: 500px;
+    height: 400px;
+    margin-right: 50px;
+    
+}
+
+Heading{
+    display: block;
+    line-height: 130px;
+    font-family: cursive;
+    font-size: 1.8em;
+    font-weight: bold;
+    padding-left: 45px;
+}
+
+Details{
+    display: inline-block;
+    text-align: center;
+    border-top: 1px solid #b5b4b1;
+    border-bottom: 1px solid #b5b4b1;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    margin-bottom: 15px;
+    width: 100%;
+    height: 50px;
+}
+
+Storename, Store-Address, Telephone-Number, website{
+    display: inline-block;
+    text-align: center;
+    padding-bottom: 5px;
+    font-family: cursive;
+    line-height: 50px;
+    margin-left: 65px;
+    transition: 2.5s;
+
+}
+
+Storename:hover, Store-Address:hover, Telephone-Number:hover, website:hover{
+    display: inline-block;
+    text-align: center;
+    padding-bottom: 5px;
+    font-family: cursive;
+    line-height: 50px;
+    margin-left: 65px;
+    font-size: 2em;
+    transform: translateX(-20px);
+    transition: 2s;
+}
+
+Song-detail{
+    display: block;
+    display: flex;
+    border-top: 1px solid #b5b4b1;
+    border-bottom: 1px solid #b5b4b1;
+    border-radius: 10px;
+    margin-bottom: 30px;
+
+}
+
+Song-Image1{
+    display: block;
+    flex: 20%;
+    background-image: url('Image/Creep.jpg');
+    background-repeat: no-repeat;
+    background-size: 300px;
+    width: 300px;
+    height: 300px;
+    float: left;
+    margin-top: 30px;
+    padding-bottom: 40px;
+    border-radius: 5px;
+    padding-right: 50px;
+    transition: 3s;
+}
+
+Song-Image1:hover{
+    display: block;
+    flex: 20%;
+    background-image: url('Image/Creep.jpg');
+    background-repeat: no-repeat;
+    background-size: 350px;
+    width: 350px;
+    height: 350px;
+    float: left;
+    margin-top: 30px;
+    padding-bottom: 40px;
+    border-radius: 5px;
+    padding-right: 50px;
+    transition: 3s;
+    
+}
+
+Song-Image2{
+    display: block;
+    flex: 20%;
+    background-image: url('Image/Comethru.jpg');
+    background-repeat: no-repeat;
+    background-size: 300px;
+    width: 300px;
+    height: 300px;
+    float: left;
+    margin-top: 30px;
+    padding-bottom: 40px;
+    border-radius: 5px;
+    padding-right: 50px;
+    transition: 3s;
+}
+
+Song-Image2:hover{
+    display: block;
+    flex: 20%;
+    background-image: url('Image/Comethru.jpg');
+    background-repeat: no-repeat;
+    background-size: 350px;
+    width: 350px;
+    height: 350px;
+    float: left;
+    margin-top: 30px;
+    padding-bottom: 40px;
+    border-radius: 5px;
+    padding-right: 50px;
+    transition: 3s;
+}
+
+Song-Image3{
+    display: block;
+    flex: 20%;
+    background-image: url('Image/Radioactive.jpg');
+    background-repeat: no-repeat;
+    background-size: 300px;
+    width: 300px;
+    height: 300px;
+    float: left;
+    margin-top: 30px;
+    padding-bottom: 40px;
+    border-radius: 5px;
+    padding-right: 50px;
+    transition: 3s;
+}
+
+Song-Image3:hover{
+    display: block;
+    flex: 20%;
+    background-image: url('Image/Radioactive.jpg');
+    background-repeat: no-repeat;
+    background-size: 350px;
+    width: 350px;
+    height: 350px;
+    float: left;
+    margin-top: 30px;
+    padding-bottom: 40px;
+    border-radius: 5px;
+    padding-right: 50px;
+    transition: 3s;
+}
+
+Song-Image4{
+    display: block;
+    flex: 20%;
+    background-image: url('Image/Boneless.jpg');
+    background-repeat: no-repeat;
+    background-size: 300px;
+    width: 300px;
+    height: 300px;
+    float: left;
+    margin-top: 30px;
+    padding-bottom: 40px;
+    border-radius: 5px;
+    padding-right: 50px;
+    transition: 3s;
+}
+
+Song-Image4:hover{
+    display: block;
+    flex: 20%;
+    background-image: url('Image/Boneless.jpg');
+    background-repeat: no-repeat;
+    background-size: 350px;
+    width: 350px;
+    height: 350px;
+    float: left;
+    margin-top: 30px;
+    padding-bottom: 40px;
+    border-radius: 5px;
+    padding-right: 50px;
+    transition: 3s;
+}
+
+Song-Image5{
+    display: block;
+    flex: 20%;
+    background-image: url('Image/The Nights.jpg');
+    background-repeat: no-repeat;
+    background-size: 300px;
+    width: 300px;
+    height: 300px;
+    float: left;
+    margin-top: 30px;
+    padding-bottom: 40px;
+    border-radius: 5px;
+    padding-right: 50px;
+    transition: 3s;
+}
+
+Song-Image5:hover{
+    display: block;
+    flex: 20%;
+    background-image: url('Image/The Nights.jpg');
+    background-repeat: no-repeat;
+    background-size: 350px;
+    width: 350px;
+    height: 350px;
+    float: left;
+    margin-top: 30px;
+    padding-bottom: 40px;
+    border-radius: 5px;
+    padding-right: 50px;
+    transition: 3s;
+}
+
+
+Song-Image6{
+    display: block;
+    flex: 20%;
+    background-image: url('Image/Bohemain Rhapsody.jpg');
+    background-repeat: no-repeat;
+    background-size: 300px;
+    width: 300px;
+    height: 300px;
+    float: left;
+    margin-top: 30px;
+    padding-bottom: 40px;
+    transition: 3s;
+}
+
+Song-Image6:hover{
+    display: block;
+    flex: 20%;
+    background-image: url('Image/Bohemain Rhapsody.jpg');
+    background-repeat: no-repeat;
+    background-size: 350px;
+    width: 350px;
+    height: 350px;
+    float: left;
+    margin-top: 30px;
+    padding-bottom: 40px;
+    transition: 3s;
+}
+
+Song-Image7{
+    display: block;
+    flex: 20%;
+    background-image: url('Image/Snow.jpg');
+    background-repeat: no-repeat;
+    background-size: 300px;
+    width: 300px;
+    height: 300px;
+    float: left;
+    margin-top: 30px;
+    padding-bottom: 40px;
+    border-radius: 5px;
+    padding-right: 50px;
+    transition: 5s;
+}
+
+Song-Image7:hover{
+    display: block;
+    flex: 20%;
+    background-image: url('Image/Snow.jpg');
+    background-repeat: no-repeat;
+    background-size: 350px;
+    width: 350px;
+    height: 350px;
+    float: left;
+    margin-top: 30px;
+    padding-bottom: 40px;
+    border-radius: 5px;
+    padding-right: 50px;
+    transition: 3s;
+}
+
+Song-Image8{
+    display: block;
+    flex: 20%;
+    background-image: url('Image/Yellow.jpg');
+    background-repeat: no-repeat;
+    background-size: 300px;
+    width: 300px;
+    height: 300px;
+    float: left;
+    margin-top: 30px;
+    padding-bottom: 40px;
+    border-radius: 5px;
+    padding-right: 50px;
+    transition: 3s;
+}
+
+Song-Image8:hover{
+    display: block;
+    flex: 20%;
+    background-image: url('Image/Yellow.jpg');
+    background-repeat: no-repeat;
+    background-size: 350px;
+    width: 350px;
+    height: 350px;
+    float: left;
+    margin-top: 30px;
+    padding-bottom: 40px;
+    border-radius: 5px;
+    padding-right: 50px;
+    transition: 3s;
+}
+
+Song-Image9{
+    display: block;
+    flex: 20%;
+    background-image: url('Image/Sweet chid o Miine.jpg');
+    background-repeat: no-repeat;
+    background-size: 300px;
+    width: 300px;
+    height: 300px;
+    float: left;
+    margin-top: 30px;
+    padding-bottom: 40px;
+    border-radius: 5px;
+    padding-right: 50px;
+    transition: 3s;
+}
+
+Song-Image9:hover{
+    display: block;
+    flex: 20%;
+    background-image: url('Image/Sweet chid o Miine.jpg');
+    background-repeat: no-repeat;
+    background-size: 350px;
+    width: 350px;
+    height: 350px;
+    float: left;
+    margin-top: 30px;
+    padding-bottom: 40px;
+    border-radius: 5px;
+    padding-right: 50px;
+    transition: 3s;
+}
+
+Song-Image10{
+    display: block;
+    flex: 20%;
+    background-image: url('Image/Imagine.jpg');
+    background-repeat: no-repeat;
+    background-size: 300px;
+    width: 300px;
+    height: 300px;
+    float: left;
+    margin-top: 30px;
+    padding-bottom: 40px;
+    border-radius: 5px;
+    padding-right: 50px;
+    transition: 3s;
+}
+
+Song-Image10:hover{
+    display: block;
+    flex: 20%;
+    background-image: url('Image/Imagine.jpg');
+    background-repeat: no-repeat;
+    background-size: 350px;
+    width: 350px;
+    height: 350px;
+    float: left;
+    margin-top: 30px;
+    padding-bottom: 40px;
+    border-radius: 5px;
+    padding-right: 50px;
+    transition: 3s;
+}
+
+Song-Image11{
+    display: block;
+    flex: 20%;
+    background-image: url('Image/scorpions-wind-of-change.jpg');
+    background-repeat: no-repeat;
+    background-size: 300px;
+    width: 300px;
+    height: 300px;
+    float: left;
+    margin-top: 30px;
+    padding-bottom: 40px;
+    border-radius: 5px;
+    padding-right: 50px;
+    transition: 3s;
+}
+
+Song-Image11:hover{
+    display: block;
+    flex: 20%;
+    background-image: url('Image/scorpions-wind-of-change.jpg');
+    background-repeat: no-repeat;
+    background-size: 350px;
+    width: 350px;
+    height: 350px;
+    float: left;
+    margin-top: 30px;
+    padding-bottom: 40px;
+    border-radius: 5px;
+    padding-right: 50px;
+    transition: 3s;
+}
+
+
+Song-Image12{
+    display: block;
+    flex: 20%;
+    background-image: url('Image/Greenday wake me up.jpg');
+    background-repeat: no-repeat;
+    background-size: 300px;
+    width: 300px;
+    height: 300px;
+    float: left;
+    margin-top: 30px;
+    padding-bottom: 40px;
+    border-radius: 5px;
+    padding-right: 50px;
+    transition: 3s;
+}
+
+Song-Image12:hover{
+    display: block;
+    flex: 20%;
+    background-image: url('Image/Greenday wake me up.jpg');
+    background-repeat: no-repeat;
+    background-size: 350px;
+    width: 350px;
+    height: 350px;
+    float: left;
+    margin-top: 30px;
+    padding-bottom: 40px;
+    border-radius: 5px;
+    padding-right: 50px;
+    transition: 3s;
+}
+
+Song-Image13{
+    display: block;
+    flex: 20%;
+    background-image: url('Image/Location.jpg');
+    background-repeat: no-repeat;
+    background-size: 300px;
+    width: 300px;
+    height: 300px;
+    float: left;
+    margin-top: 30px;
+    padding-bottom: 40px;
+    border-radius: 5px;
+    padding-right: 50px;
+    transition: 3s;
+}
+
+Song-Image13:hover{
+    display: block;
+    flex: 20%;
+    background-image: url('Image/Location.jpg');
+    background-repeat: no-repeat;
+    background-size: 350px;
+    width: 350px;
+    height: 350px;
+    float: left;
+    margin-top: 30px;
+    padding-bottom: 40px;
+    border-radius: 5px;
+    padding-right: 50px;
+    transition: 3s;
+}
+
+Song-Image14{
+    display: block;
+    flex: 20%;
+    background-image: url('Image/sorry.jpg');
+    background-repeat: no-repeat;
+    background-size: 300px;
+    width: 300px;
+    height: 300px;
+    float: left;
+    margin-top: 30px;
+    padding-bottom: 40px;
+    border-radius: 5px;
+    padding-right: 50px;
+    transition: 3s;
+}
+
+Song-Image14:hover{
+    display: block;
+    flex: 20%;
+    background-image: url('Image/sorry.jpg');
+    background-repeat: no-repeat;
+    background-size: 350px;
+    width: 350px;
+    height: 350px;
+    float: left;
+    margin-top: 30px;
+    padding-bottom: 40px;
+    border-radius: 5px;
+    padding-right: 50px;
+    transition: 3s;
+}
+
+Song-Image15{
+    display: block;
+    flex: 20%;
+    background-image: url('Image/Runaway.jpg');
+    background-repeat: no-repeat;
+    background-size: 300px;
+    width: 300px;
+    height: 300px;
+    float: left;
+    margin-top: 30px;
+    padding-bottom: 40px;
+    border-radius: 5px;
+    padding-right: 50px;
+    transition: 3s;
+}
+
+Song-Image15:hover{
+    display: block;
+    flex: 20%;
+    background-image: url('Image/Runaway.jpg');
+    background-repeat: no-repeat;
+    background-size: 350px;
+    width: 350px;
+    height: 350px;
+    float: left;
+    margin-top: 30px;
+    padding-bottom: 40px;
+    border-radius: 5px;
+    padding-right: 50px;
+    transition: 3s;
+}
+
+Song-Info{
+    flex: 80%;
+    display: block;
+    padding-bottom: 20px;
+    margin-left: 25px;
+    
+}
+
+description{
+    display: block;
+    padding-top: 40px;
+    margin-bottom: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.1em;
+    text-align: justify;
+    border: 1px solid #000;
+    padding: 5px;
+    margin-top: 40px;
+}
+
+
+Song-Name,genre,Director-Name,Co-Director-Name,Producer_Name,Band,Writer,Release-Year{
+    display: block;
+    display: list-item;
+    list-style: disc;
+    font-family:Arial, Helvetica, sans-serif ;
+    margin-left: 25px;
+
+}
+
+Name,Real_Name,Age,Death-Date,Sex,Instruments,Address{
+    display: block;
+    display: list-item;
+    list-style: disc;
+    font-family:Arial, Helvetica, sans-serif ;
+    margin-left: 45px;
+}

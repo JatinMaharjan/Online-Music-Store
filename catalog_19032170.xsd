@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+  <xs:element name="Store">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="header"/>
+        <xs:element ref="Details"/>
+        <xs:element maxOccurs="unbounded" ref="Song-detail"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="header">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="image"/>
+        <xs:element ref="Heading"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="image">
+    <xs:complexType/>
+  </xs:element>
+  <xs:element name="Heading" type="xs:string"/>
+  <xs:element name="Details">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="Storename"/>
+        <xs:element ref="Store-Address"/>
+        <xs:element ref="Telephone-Number"/>
+        <xs:element ref="website"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Storename" type="xs:string"/>
+  <xs:element name="Store-Address">
+    <xs:complexType mixed="true">
+      <xs:attribute name="Main_branch" use="required" type="xs:NCName"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Telephone-Number" type="xs:NMTOKEN"/>
+  <xs:element name="website" type="xs:NCName"/>
+  <xs:element name="Song-detail">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:choice>
+          <xs:element ref="Song-Image1"/>
+          <xs:element ref="Song-Image10"/>
+          <xs:element ref="Song-Image11"/>
+          <xs:element ref="Song-Image12"/>
+          <xs:element ref="Song-Image13"/>
+          <xs:element ref="Song-Image14"/>
+          <xs:element ref="Song-Image15"/>
+          <xs:element ref="Song-Image2"/>
+          <xs:element ref="Song-Image3"/>
+          <xs:element ref="Song-Image4"/>
+          <xs:element ref="Song-Image5"/>
+          <xs:element ref="Song-Image6"/>
+          <xs:element ref="Song-Image7"/>
+          <xs:element ref="Song-Image8"/>
+          <xs:element ref="Song-Image9"/>
+        </xs:choice>
+        <xs:element ref="Song-Info"/>
+      </xs:sequence>
+      <xs:attribute name="SongNo" use="required" type="xs:integer"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Song-Image1">
+    <xs:complexType>
+      <xs:attribute name="Image_id" use="required" type="xs:integer"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Song-Image10">
+    <xs:complexType>
+      <xs:attribute name="Image_id" use="required" type="xs:integer"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Song-Image11">
+    <xs:complexType>
+      <xs:attribute name="Image_id" use="required" type="xs:integer"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Song-Image12">
+    <xs:complexType>
+      <xs:attribute name="Image_id" use="required" type="xs:integer"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Song-Image13">
+    <xs:complexType>
+      <xs:attribute name="Image_id" use="required" type="xs:integer"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Song-Image14">
+    <xs:complexType>
+      <xs:attribute name="Image_id" use="required" type="xs:integer"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Song-Image15">
+    <xs:complexType>
+      <xs:attribute name="Image_id" use="required" type="xs:integer"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Song-Image2">
+    <xs:complexType>
+      <xs:attribute name="Image_id" use="required" type="xs:integer"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Song-Image3">
+    <xs:complexType>
+      <xs:attribute name="Image_id" use="required" type="xs:integer"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Song-Image4">
+    <xs:complexType>
+      <xs:attribute name="Image_id" use="required" type="xs:integer"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Song-Image5">
+    <xs:complexType>
+      <xs:attribute name="Image_id" use="required" type="xs:integer"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Song-Image6">
+    <xs:complexType>
+      <xs:attribute name="Image_id" use="required" type="xs:integer"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Song-Image7">
+    <xs:complexType>
+      <xs:attribute name="Image_id" use="required" type="xs:integer"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Song-Image8">
+    <xs:complexType>
+      <xs:attribute name="Image_id" use="required" type="xs:integer"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Song-Image9">
+    <xs:complexType>
+      <xs:attribute name="Image_id" use="required" type="xs:integer"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Song-Info">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="description"/>
+        <xs:element ref="Song-Name"/>
+        <xs:element ref="genre"/>
+        <xs:element ref="Director-Name"/>
+        <xs:element minOccurs="0" ref="Co-Director-Name"/>
+        <xs:element ref="Producer_Name"/>
+        <xs:element ref="Writer"/>
+        <xs:element minOccurs="0" ref="Band"/>
+        <xs:choice maxOccurs="unbounded">
+          <xs:element ref="Address"/>
+          <xs:element ref="Age"/>
+          <xs:element ref="Death-Date"/>
+          <xs:element ref="Instruments"/>
+          <xs:element ref="Name"/>
+          <xs:element ref="Real_Name"/>
+          <xs:element ref="Sex"/>
+        </xs:choice>
+        <xs:element ref="Release-Year"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="description" type="xs:string"/>
+  <xs:element name="Song-Name" type="xs:string"/>
+  <xs:element name="genre">
+    <xs:complexType mixed="true">
+      <xs:attribute name="type" use="required"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Director-Name" type="xs:string"/>
+  <xs:element name="Co-Director-Name" type="xs:string"/>
+  <xs:element name="Producer_Name" type="xs:string"/>
+  <xs:element name="Writer" type="xs:string"/>
+  <xs:element name="Band">
+    <xs:complexType mixed="true">
+      <xs:attribute name="members" use="required" type="xs:integer"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Address" type="xs:string"/>
+  <xs:element name="Age" type="xs:string"/>
+  <xs:element name="Death-Date" type="xs:string"/>
+  <xs:element name="Instruments" type="xs:string"/>
+  <xs:element name="Name" type="xs:string"/>
+  <xs:element name="Real_Name" type="xs:string"/>
+  <xs:element name="Sex" type="xs:string"/>
+  <xs:element name="Release-Year" type="xs:string"/>
+</xs:schema>

@@ -1,0 +1,128 @@
+
+
+<!ELEMENT Store (header,Details,Song-detail+)>
+<!ATTLIST Store 
+  xmlns:xs CDATA #FIXED 'http://www.w3.org/2001/XMLSchema-instance'
+  xs:noNamespaceSchemaLocation NMTOKEN #REQUIRED>
+
+<!ELEMENT header (image,Heading)>
+
+<!ELEMENT Details (Storename,Store-Address,Telephone-Number,website)>
+
+<!ELEMENT Song-detail ((Song-Image1?,Song-Image10?,Song-Image11?,Song-Image12?, Song-Image13?,Song-Image14?,Song-Image15?,
+Song-Image2?,Song-Image3?,Song-Image4?,Song-Image5?,Song-Image6?,Song-Image7?,Song-Image8?,Song-Image9?),Song-Info)>
+<!ATTLIST Song-detail
+  SongNo CDATA #REQUIRED>
+
+<!ELEMENT image EMPTY>
+
+<!ELEMENT Heading (#PCDATA)>
+
+<!ELEMENT Storename (#PCDATA)>
+
+<!ELEMENT Store-Address (#PCDATA)>
+<!ATTLIST Store-Address
+  Main_branch NMTOKEN #REQUIRED>
+
+<!ELEMENT Telephone-Number (#PCDATA)>
+
+<!ELEMENT website (#PCDATA)>
+
+<!ELEMENT Song-Image1 EMPTY>
+<!ATTLIST Song-Image1
+  Image_id CDATA #REQUIRED>
+
+<!ELEMENT Song-Image10 EMPTY>
+<!ATTLIST Song-Image10
+  Image_id CDATA #REQUIRED>
+
+<!ELEMENT Song-Image11 EMPTY>
+<!ATTLIST Song-Image11
+  Image_id CDATA #REQUIRED>
+
+<!ELEMENT Song-Image12 EMPTY>
+<!ATTLIST Song-Image12
+  Image_id CDATA #REQUIRED>
+
+<!ELEMENT Song-Image13 EMPTY>
+<!ATTLIST Song-Image13
+  Image_id CDATA #REQUIRED>
+
+<!ELEMENT Song-Image14 EMPTY>
+<!ATTLIST Song-Image14
+  Image_id CDATA #REQUIRED>
+
+<!ELEMENT Song-Image15 EMPTY>
+<!ATTLIST Song-Image15
+  Image_id CDATA #REQUIRED>
+
+<!ELEMENT Song-Image2 EMPTY>
+<!ATTLIST Song-Image2
+  Image_id CDATA #REQUIRED>
+
+<!ELEMENT Song-Image3 EMPTY>
+<!ATTLIST Song-Image3
+  Image_id CDATA #REQUIRED>
+
+<!ELEMENT Song-Image4 EMPTY>
+<!ATTLIST Song-Image4
+  Image_id CDATA #REQUIRED>
+
+<!ELEMENT Song-Image5 EMPTY>
+<!ATTLIST Song-Image5
+  Image_id CDATA #REQUIRED>
+
+<!ELEMENT Song-Image6 EMPTY>
+<!ATTLIST Song-Image6
+  Image_id CDATA #REQUIRED>
+
+<!ELEMENT Song-Image7 EMPTY>
+<!ATTLIST Song-Image7
+  Image_id CDATA #REQUIRED>
+
+<!ELEMENT Song-Image8 EMPTY>
+<!ATTLIST Song-Image8
+  Image_id CDATA #REQUIRED>
+
+<!ELEMENT Song-Image9 EMPTY>
+<!ATTLIST Song-Image9
+  Image_id CDATA #REQUIRED>
+
+<!ELEMENT Song-Info (description,Song-Name,genre,Director-Name,Co-Director-Name*,Producer_Name,Writer,Band*,Name,Real_Name*,Age,Death-Date*,Sex,Instruments*,
+                     Address,Release-Year)>
+
+<!ELEMENT description (#PCDATA)>
+
+<!ELEMENT Song-Name (#PCDATA)>
+
+<!ELEMENT genre (#PCDATA)>
+<!ATTLIST genre
+  type CDATA #REQUIRED>
+
+<!ELEMENT Director-Name (#PCDATA)>
+
+<!ELEMENT Co-Director-Name (#PCDATA)>
+
+<!ELEMENT Producer_Name (#PCDATA)>
+
+<!ELEMENT Writer (#PCDATA)>
+
+<!ELEMENT Band (#PCDATA)>
+<!ATTLIST Band
+  members CDATA #REQUIRED>
+
+<!ELEMENT Address (#PCDATA)>
+
+<!ELEMENT Age (#PCDATA)>
+
+<!ELEMENT Death-Date (#PCDATA)>
+
+<!ELEMENT Instruments (#PCDATA)>
+
+<!ELEMENT Name (#PCDATA)>
+
+<!ELEMENT Real_Name (#PCDATA)>
+
+<!ELEMENT Sex (#PCDATA)>
+
+<!ELEMENT Release-Year (#PCDATA)>

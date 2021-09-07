@@ -1,0 +1,382 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="catalog_19032170.css"?>
+<!DOCTYPE Store SYSTEM "catalog_19032170.dtd">
+
+<Store xmlns:xs="http://www.w3.org/2001/XMLSchema-instance" xs:noNamespaceSchemaLocation="catalog_19032170.xsd">
+
+<header>
+    <image/>
+    
+    <Heading>Blood And Thunder</Heading>
+</header>
+
+<Details >
+    <Storename>Blood And Thunder</Storename>
+    <Store-Address Main_branch="Bhaisepati">Khokana,Lalitpur</Store-Address>
+    <Telephone-Number>01-5591345</Telephone-Number>
+    <website>www.BloodandThunder.com.np</website>
+</Details>
+
+<Song-detail SongNo="01">
+    <Song-Image1 Image_id="1"/>
+    <Song-Info>
+        <description>
+            <![CDATA[According to Yorke, "Creep" tells the tale of an inebriated man who tries to get the attention of a woman to whom he is attracted by following her around. This is about being in love with someone, but not feeling good enough. To creep means “to move slowly and carefully, in order to avoid being heard or noticed.]]>
+        </description>
+
+        <Song-Name>Song Name: Creep</Song-Name>
+        <genre type="Pop">Genre: Pop</genre>
+        <Director-Name>Director Name: ‎Paul Q. Kolderie </Director-Name>
+        <Producer_Name>Producer Name:  Sean Slade</Producer_Name>
+        <Writer>Song Writer: Thom Yorke</Writer>
+        <Band members="5">
+            Band: Radiohead
+        </Band>
+            <Name>Singer Name: Thom Yorke</Name>
+            <Age>Age: 53</Age>
+            <Sex>Sex: Male</Sex>
+            <Instruments>Instruments: Vocals, Guitar, Piano</Instruments>
+            <Address>Address: Oxfordshire</Address>
+        <Release-Year>Song Release Year: 1992</Release-Year>
+    </Song-Info>
+</Song-detail>
+
+<Song-detail SongNo="02">
+    <Song-Image2 Image_id="2"/>
+    <Song-Info>
+        <description>
+            <![CDATA[This song describe about the person who is in love with someone and is just anxious of waiting for the other person. Jeremy Zucker's “comethru” has found a strong audience with 31 million Spotify streams to date. The song is self-produced.]]>
+        </description>
+
+        <Song-Name>Song Name: Comethru</Song-Name>
+        <genre type="Pop">Genere: Pop indie pop</genre>
+        <Director-Name>Director Name: Jeremy Zucker</Director-Name>
+        <Producer_Name>Producer Name: Jeremy Zucker</Producer_Name>
+        <Writer>Writers Name: Jeremy Zucker</Writer>
+        
+            <Name>Singer Name: Jeremy Zucker</Name>
+            <Age>Age: 25</Age>
+            <Sex>Sex: Male</Sex>
+            <Address>Address: 2 Soundview cir, White Plains</Address>
+       
+        <Release-Year>Song Release Year: 2018</Release-Year>
+    </Song-Info>
+</Song-detail>
+
+<Song-detail SongNo="03">
+    <Song-Image3 Image_id="3"/>
+    <Song-Info>
+        <description>
+            <![CDATA[This song is about becoming self-empowered and sawing, 'I'm happy with who I am, happy with the choices I'm making,'" he added. The song is about the realization that the old way of life in which "he" thought he lived is completely destroyed and replaced "ash and dust. ]]>
+        </description>
+
+        <Song-Name>Song Name: Radioactive</Song-Name>
+        <genre type="Electronic Rock">Genre: Electronic rock alternative rock</genre>
+        <Director-Name>Director Name: Lou Diamond Phillips</Director-Name>
+        <Producer_Name>Producer Name: Alex da kid</Producer_Name>
+        <Writer>Writer: Alex da kid</Writer>
+        <Band members="5">
+            Band: Imagine Dragons
+        </Band>
+        
+            <Name>Singer Name: Dan Reynolds</Name>
+            <Age>Age: 21</Age>
+            <Sex>Sex: Male</Sex>
+            <Instruments>Instruments: Vocals, GUitar, Piano, Synthesizers</Instruments>
+            <Address>Address: Las Vegas</Address>
+       
+        <Release-Year>Release Year: 2012</Release-Year>
+    </Song-Info>
+</Song-detail>
+
+<Song-detail SongNo="04">
+    <Song-Image4 Image_id="4"/>
+    <Song-Info>
+        <description>
+            <![CDATA["Boneless" is a song by American DJ and producer Steve Aoki in collaboration with European dance music producers Chris Lake and Tujamo. This song defines about the lyric interpretation, video and chart position.]]>
+        </description>
+
+        <Song-Name>Song Name: Boneless</Song-Name>
+        <genre type="Electro House;hip house">Genere: Electro House;hip house</genre>
+        <Director-Name>Director Name: Steve Aoki</Director-Name>
+        <Producer_Name>Producer Name: Steve Aoki, Chris Lake, Tujamo</Producer_Name>
+        <Writer>Writer: Steve Aoki</Writer>
+        
+            <Name>Singer Name: Steve Aoki</Name>
+            <Age>Age: 30</Age>
+            <Sex>Sex: Male</Sex>
+            <Address>Address: California</Address>
+       
+        <Release-Year>Release Year: 2014</Release-Year>
+    </Song-Info>
+</Song-detail>
+
+<Song-detail SongNo="05">
+    <Song-Image5 Image_id="5"/>
+    <Song-Info>
+        <description>
+            <![CDATA["The Nights" is a song by Swedish DJ and record producer Avicii. It is story of how a young man lived an adventurous life and is maybe what  Avicii is trying to say through his lyrics that people should 'Live a life you will remember' because 'One day you will leave this world behind. The nights is an example of a dance/house music song which he is famous for creating, as his is the type of music he produces and is the music he is recognised for all over the world]]>
+        </description>
+
+        <Song-Name>Song Name: The Nights</Song-Name>
+        <genre type="Progressive house: folktronica">Genre: folktronica</genre>
+        <Director-Name>Director Name: Rory Kramer</Director-Name>
+        <Producer_Name>Producer Name: Arash Pournouri</Producer_Name>
+        <Writer>Writer: Arash Pournouri</Writer>
+        
+            <Name>Singer Name: Avicii</Name>
+            <Real_Name>Real Name: Tim Bergling</Real_Name>
+            <Age>Age: 24</Age>
+            <Sex>Sex: Male</Sex>
+            <Address>Address: Iran</Address>
+       
+        <Release-Year>Release Year: 2014</Release-Year>
+    </Song-Info>
+</Song-detail>
+
+<Song-detail SongNo="06">
+    <Song-Image6 Image_id="6"/>
+    <Song-Info>
+        <description>
+            <![CDATA["Bohemian Rhapsody" is a song by the British rock band Queen. It was written by Freddie Mercury. The lyrics describe a suicidal murderer haunted by demons or depict events just preceding an execution.]]>
+        </description>
+
+        <Song-Name>Song Name: Bohemain Rhapsody</Song-Name>
+        <genre type="Profresive rock hard rock">Genere: Profresive rock hard rock</genre>
+        <Director-Name>Director Name: Bryan Singer</Director-Name>
+        <Co-Director-Name>Co-directory Name: Dexter Fletcher</Co-Director-Name>
+        <Producer_Name>Producer Name: Roy Thomas Baker</Producer_Name>
+        <Writer>Writer: Freddie Mercury</Writer>
+        <Band members="4">
+            Band Name: Queen
+        </Band>
+        
+            <Name>Singer Name: Freddie Mercury</Name>
+            <Age>Age: 45</Age>
+            <Death-Date>Death Date: Nov24, 1991</Death-Date>
+            <Sex>Sex: Male</Sex>
+            <Address>Address: London</Address>
+       
+        <Release-Year>Release Year: 1975</Release-Year>
+    </Song-Info>
+</Song-detail>
+
+<Song-detail SongNo="07">
+    <Song-Image7 Image_id="7"/>
+    <Song-Info>
+        <description>
+            <![CDATA[Snow (Hey Oh) is a song by American band Red Hot Chili Peppers from their 2006 double album, Stadium Arcadium. This song is about cocaine and China White heroin, two of lead singer Anthony Kiedis' drugs of choice. Both are a white powdery substance, which looks like snow. The lyrics, "So white as snow... Privately divided by a world so undecided," refer to dividing the coke/heroin into lines, so as to deal them or snort them.]]>
+        </description>
+
+        <Song-Name>Song Name: Snow</Song-Name>
+        <genre type="Alternative rock">Genre: Alternative rock</genre>
+        <Director-Name>Director Name: John Frusciante, Chad Smith</Director-Name>
+        <Co-Director-Name>Co-director Name: Anthony Kiedis, Flea</Co-Director-Name>
+        <Producer_Name>Producer Name: Anthony Kiedis, John Frusciante, Flea</Producer_Name>
+        <Writer>Writer: Flea, Jhon Frusciante, Anthony Kiedis, Chad Smith</Writer>
+        <Band members="5">
+            Band Name: Red Hot Chilli Pepper
+        </Band>
+        
+            <Name>Singer Name: Anthony Kiedis</Name>
+            <Age>Age: 58</Age>
+            <Sex>Sex: Male</Sex>
+            <Address>Address: America</Address>
+       
+        <Release-Year>Release Year: 2006</Release-Year>
+    </Song-Info>
+</Song-detail>
+
+<Song-detail SongNo="08">
+    <Song-Image8 Image_id="8"/>
+    <Song-Info>
+        <description>
+            <![CDATA[This song was made and dedicated to Chris Martins mom. She was sick and dieing from a disease that made her skin yellow. The song speaks about love and how devoted he can be towards true love. Naturally people think this song is about liver disease, or even love. I feel this song hit me hard in a different way referring to methamphetamine]]>
+        </description>
+
+        <Song-Name>Song Name: Yellow</Song-Name>
+        <genre type="Post-Britpop">Genre: Post-Britpop</genre>
+        <Director-Name>Director Name: Chris Martin, Will Champion, Jonny Buckland, Guy Berryman</Director-Name>
+        <Producer_Name>Producer Name: Ken Nelson</Producer_Name>
+        <Writer>Writer: Will Champion, Chris Martin, Guy Berryman, Jonny Buckland</Writer>
+        <Band members="5">
+            Band Name: Coldplay
+        </Band>
+        
+            <Name>Singer Name: Chris Martin</Name>
+            <Age>Age: 44</Age>
+            <Sex>Sex: Male</Sex>
+            <Address>Address: London</Address>
+       
+        <Release-Year>Release Year: 2000</Release-Year>
+    </Song-Info>
+</Song-detail>
+
+<Song-detail SongNo="09">
+    <Song-Image9 Image_id="9"/>
+    <Song-Info>
+        <description>
+            <![CDATA[The lyrics came from a poem Axl Rose was working on. He wrote the song about his girlfriend, Erin Everly, the daughter of Don Everly of the Everly Brothers. It appeared on their debut album Appetite for Destruction.Calling his girlfriend “child” is a term of endearment. Any person is naturally most protective and loving towards their children.]]>
+        </description>
+
+        <Song-Name>Song Name: Sweet Child o'Mine</Song-Name>
+        <genre type="Glam metal hard rock">Genre: Clam metal hard rock</genre>
+        <Director-Name>Director Name: Stephane Sednaoui</Director-Name>
+        <Producer_Name>Producer Name: Mike Clink</Producer_Name>
+        <Writer>Writer: Mike Clink</Writer>
+        <Band members="5">
+            Band Name: Guns 'N' Roses
+        </Band>
+            
+                <Name>Singer Name: Axl Rose</Name>
+                <Age>Age: 60</Age>
+                <Sex>Sex: Male</Sex>
+                <Address>Address: Los Angeles, California</Address>
+          
+        
+        <Release-Year>Release Year: 1987</Release-Year>
+    </Song-Info>
+</Song-detail>
+
+<Song-detail SongNo="10">
+    <Song-Image10 Image_id="10"/>
+    <Song-Info>
+        <description>
+            <![CDATA[Tts lyrics encourage listeners to imagine a world at peace without the barriers of borders or the divisions of religion and nationality and to consider the possibility that the whole of humanity would live unattached to material possessions. BMI named "Imagine" one of the 100 most performed songs of the 20th century.]]>
+        </description>
+
+        <Song-Name>Song Name: Imagine</Song-Name>
+        <genre type="Soft Rock">Genre: Soft Rock</genre>
+        <Director-Name>Director Name: John Lenno</Director-Name>
+        <Producer_Name>Producer Name: John Lenno, Phil Spector, Yoko Ono</Producer_Name>
+        <Writer>Writer: John Lenno, Yoko Ono</Writer>
+        
+            <Name>Singer Name: John Lennon</Name>
+            <Age>Age: 40</Age>
+            <Death-Date>Death Date: 1980</Death-Date>
+            <Sex>Sex: Male</Sex>
+            <Address>Address: Woolton Suburb of Liverpool</Address>
+       
+        <Release-Year>Release Year: 1971</Release-Year>
+    </Song-Info>
+</Song-detail>
+
+<Song-detail SongNo="11">
+    <Song-Image11 Image_id="11"/>
+    <Song-Info>
+        <description>
+            <![CDATA[The "Wind of Change" that was blowing was the fall of the Soviet Union, which is what the song is about, but when the Berlin Wall fell on November 9, 1989, the song became the unofficial anthem for the German Reunification, an event that politically lasted from the fall Wall to the official reunification on October 3. The world had gone through hell for almost 50 years, and it seemed like it may finally be over, and the song is about listening to the winds of change.]]>
+        </description>
+
+        <Song-Name>Song Name: Wind of Change</Song-Name>
+        <genre type="Glam metal hard rock">Genre: Glam metal hard rock</genre>
+        <Director-Name>Director Name: Klaus Meine</Director-Name>
+        <Producer_Name>Producer Name: Keith Olsen</Producer_Name>
+        <Writer>Writer Name: Klaus Meine</Writer>
+        <Band members="5">
+            Band Name: Scorpions
+        </Band>
+        
+            <Name>Singer Name: Klaus Meine</Name>
+            <Age>Age: 72</Age>
+            <Sex>Sex: Male</Sex>
+            <Address>Address: German</Address>
+       
+        <Release-Year>Release Year: 1990</Release-Year>
+    </Song-Info>
+</Song-detail>
+
+<Song-detail SongNo="12">
+    <Song-Image12 Image_id="12"/>
+    <Song-Info>
+        <description>
+            <![CDATA[Green Day lead singer Billie Joe Armstrong wrote this song about his father, who died of cancer on September 1, 1982 when Billie was just 10 years old. ... When his mother got home and knocked on the door to Billie's room, Billie simply said, "Wake me up when September ends," hence the title.]]>
+        </description>
+
+        <Song-Name>Song Name: Wake Me Up When September Ends</Song-Name>
+        <genre type="Alternative Rock">Genre: Wake Me Up When September Ends</genre>
+        <Director-Name>Director Name: Samuel Bayer</Director-Name>
+        <Producer_Name>Producer Name: Rob Cavallo</Producer_Name>
+        <Writer>Writer: Billie Joe Armstrong</Writer>
+        <Band members="3">
+            Band Name: Green Day
+        </Band>
+        
+            <Name>Singer Name: Billie Joe Armstrong</Name>
+            <Age>Age: 49</Age>
+            <Sex>Sex: Male</Sex>
+            <Address>Address: Rodeo, California, U.S</Address>
+       
+        <Release-Year>Release Year: 2004</Release-Year>
+    </Song-Info>
+</Song-detail>
+
+<Song-detail SongNo="13">
+    <Song-Image13 Image_id="13"/>
+    <Song-Info>
+        <description>
+            <![CDATA[The song is about the intimate love you can only feel when two people are in the same location. The song finds Khalid calling out for the sort of love you would travel across the country to find. He told his school newspaper: "It's just a story of searching for something that we all want in life no matter who we are and that's a real genuine lover, but it doesn't come easy."]]>
+        </description>
+
+        <Song-Name>Song-Name: Location</Song-Name>
+        <genre type="Alternative R and B">Genre: Alternative R and B</genre>
+        <Director-Name>Director Name: Alex Di Marco</Director-Name>
+        <Producer_Name>Producer Name: Josh Scruggs</Producer_Name>
+        <Writer>Writer Name: Khalid Robinson, Joshua Scruggs</Writer>
+        
+            <Name>Singer Name: Khalid</Name>
+            <Real_Name>Real Name: Khalid Robinson</Real_Name>
+            <Age>Age: 23</Age>
+            <Sex>Sex: Male</Sex>
+            <Address>Address: El Paso, Texas, U.S</Address>
+       
+        <Release-Year>Release Year: 2017</Release-Year>
+    </Song-Info>
+</Song-detail>
+
+<Song-detail SongNo="14">
+    <Song-Image14 Image_id="14"/>
+    <Song-Info>
+        <description>
+            <![CDATA[Sorry" is a song by American singer Halsey. The track is a ballad where she apologizes to her potential lovers for not letting them to get close to her. The song has achieved over 220 million streams on Spotify, being the third most played song from the album.]]>
+        </description>
+
+        <Song-Name>Song Name: Sorry</Song-Name>
+        <genre type="Pop">Genre: Pop</genre>
+        <Director-Name>Director Name: Ashley Nicolette Frangipane(Halsey)</Director-Name>
+        <Producer_Name>Producer Name: Greg Kurstin</Producer_Name>
+        <Writer>Writer: Ashley Frangipane</Writer>
+        
+            <Name>Singer Name: Halsey</Name>
+            <Real_Name>Real Name: Ashley Nicolette Frangipane</Real_Name>
+            <Age>Age: 26</Age>
+            <Sex>Sex: Female</Sex>
+            <Address>Address: Los Angeles</Address>
+       
+        <Release-Year>Release Year: 2017</Release-Year>
+    </Song-Info>
+</Song-detail>
+
+<Song-detail SongNo="15">
+    <Song-Image15 Image_id="15"/>
+    <Song-Info>
+        <description>
+            <![CDATA[AURORA wrote this when she was 11 or 12. Aurora sings here about how she yearns to be back home and safe. She told The Independent that she wrote the song after she "wandered off for a while.]]>
+        </description>
+
+        <Song-Name>Song Name: Runaway</Song-Name>
+        <genre type="Pop">Genre: Pop</genre>
+        <Director-Name>Director Name: Aurora, Magnus Aserud Skylstad</Director-Name>
+        <Producer_Name>Producer Name: Odd Martin Skålnes; Skylstad</Producer_Name>
+        <Writer>Writer Name: Aurora</Writer>
+        
+            <Name>Singer Name: Aurora Aksnes(Aurora)</Name>
+            <Age>Age: 24</Age>
+            <Sex>Sex: Female</Sex>
+            <Address>Address: Stavanger, Norwar</Address>
+       
+        <Release-Year>Release Year: 2015</Release-Year>
+    </Song-Info>
+</Song-detail>
+
+</Store>
